@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*======================Navigation bar=========================================*/
+header{
+    height: 8vh;
+    /* width: 100vw; */
+    background-color: #2874f0;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.nav_bar{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 20vw 50vw 10vw 10vw 10vw;
+}
+
+.nav_logo{
+    height: 3vh;
+    float: right;
+    margin: 2vh 0px;
+}
+
+.nav_searchbar{
+    height: 4vh;
+    width: 35vw;
+    margin: 2vh 0vw 2vh .5vw;
+    padding: 0px 0.5vw;
+}
+
+.nav_bar li button{
+    height: 4vh;
+    width: 2vw;
+    background-color: white;
+    border-style: hidden;
+
+}
+
+.nav_bar li button i{
+    color: #2874f0;
+}
+/*=============================nav login dropdown button===============================*/
+.dropbtn{
+    background-color: white;
+    color: #2874f0;
+    padding: 1vh 3vw;
+    font-size: 16px;
+    border: none;
+    border-radius: 1px;
+
+    line-height: 8vh;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.dropdown{
+    /* position: relative; */
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content{display: block;}
+
+.dropdown:hover .dropbtn{
+    background-color:white;
+   }
+
+/*=========================login dropdown content icons========================*/
+
+.dropdown-content a i{
+    color: #2874f0;
+    padding: 0px 1vw 0px 0px;
+}
+/*=============================nav More dropdown===============================*/
+
+.dropbtn_updated{
+    color: white;
+    font-weight: bold;
+    line-height: 7.5vh;
+    padding: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+.dropbtn_updated i{
+    padding: 5px;
+    font-size: 10px;
+}
+
+.dropdown-content_updated {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 16vw;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content_updated a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content_updated a:hover{background-color: #ddd;}
+
+.dropdown:hover .dropdown-content_updated{display: block;}
+
+.dropdown:hover .dropbtn{
+    background-color:white;
+}
+/*=========================More dropdown content icons========================*/
+
+.dropdown-content_updated a i{
+    color: #2874f0;
+    padding: 0px 1vw 0px 0px;
+}
+/*=========================nav Cart ==========================================*/
+
+.cart{
+    font-weight: bold;
+    line-height: 7.5vh;
+}
+
+.cart i{
+    padding: 0px .3vw 0px 0px;
+}
+/*=================================Main======================================*/
+.container{
+    height: 185vh;
+    background-color: rgb(233, 220, 220);
+}
+/*=============================Image_Advertize===============================*/
+.advertizing_image{
+    display: flex;
+    justify-content: center;
+   
+}
+.advertizing_image img{
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+/*=================================card_1 and 2======================================*/
+.card_1{
+    width: 95vw;
+    height: 44vh;
+    margin: 2vh auto 0px auto;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.the_heading{
+    padding: 20px;
+}
+
+
+.card_1 .background{
+    height: 20vh;
+    width: 11vw;
+    background-color: black;
+    color: black;
+    display: inline-grid;
+    margin: 0px 2vw;
+}
+
+/*=============================card Image=========================================*/
+.card_1 .background img{
+    height: 20vh;
+    width: 11vw;
+    object-fit: cover;
+}
+
+
+/*=============================card text=========================================*/
+.bottom_text p{
+    text-align: center;
+    line-height: 4vh;
+}
+
+.bottom_text .heading{
+    font-weight: bold;
+}
+.bottom_text .middle_text{
+    color: green;
+}
+.bottom_text .last_linetext{
+    color: gray;
+}
+
+/*=============================3 card_1=========================================*/
+
+.card_1_3{
+    width: 95vw;
+    height: 34vh;
+    margin: 2vh auto 0px auto;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card_1_3 .background_3{
+    height: 30vh;
+    width: 30vw;
+    background-color: black;
+    color: black;
+    display: inline-grid;
+    margin: 1vw 1vh;
+    cursor: pointer;
+}
+
+.card_1_3 .background_3 img{
+    height: 30vh;
+    width: 30vw;
+    object-fit: cover;
+}
+
+/*=============================Footer=========================================*/
+.footer{
+    height: 3vh;
+    /* width: 100vw; */
+    background-color: #2874f0;
+    color: white;
+    text-align: center;
+    
+}
